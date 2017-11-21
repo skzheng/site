@@ -1,0 +1,13 @@
+.work {
+  width: 100vw;
+  height: 250px;
+  border: 1px solid rgba(187, 187, 187, 0.267); 
+  display:flex;
+  align-items: center;
+}
+
+.description {
+  max-width: 500px;
+  margin: 20px;
+}
+

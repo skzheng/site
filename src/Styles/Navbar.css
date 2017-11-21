@@ -6,7 +6,23 @@
 }
 
 .navbar {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+  background-color: white !important;
+}
+.sticky {
+  top: 0px !important;
+  left: 0px;
+  z-index: 999;
+  position: sticky !important;
+}
+.nav-link {
+  margin-left: 15px;
+  margin-right: 15px; 
+  border: 1px transparent solid;
+}
 
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
 }

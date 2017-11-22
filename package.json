@@ -7,6 +7,7 @@
     "jquery": "^3.2.1",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
+    "react-particles-js": "^2.1.0",
     "react-scripts": "1.0.17",
     "sweetalert2": "^7.0.3"
   },

@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
 
   render(){
     return(
-      <div>
+      <div id="portfolio">
         <h3> Previous Work </h3>
 
         <div className="hackerArena work">

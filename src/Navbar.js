@@ -14,16 +14,16 @@ class Navbar extends React.Component {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <li className="nav-item active">
-                <a className="nav-link" href="">About</a>
+                <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">Portfolio</a>
+                <a className="nav-link" href="#portfolio">Portfolio</a>
               </li>
               {/* <li className="nav-item">
                 <a className="nav-link" href="">Blog</a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="">Contact</a>
+                <a className="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>

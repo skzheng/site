@@ -31,10 +31,24 @@ class Contact extends React.Component {
     e.preventDefault();
     console.log(this.state.name, this.state.email, this.state.message);
     document.getElementById('contactForm').reset();
+    // swal ('Thank you!', 'Ill be in touch', 'success');
+    // swal({
+    //   title: 'SENT',
+    //   text: 'Thank you! I\'ll be in touch shortly.',
+    //   imageUrl: 'https://cdn.dribbble.com/users/29051/screenshots/3346063/header-sparkle-gif.gif',
+    //   imageAlt: 'Custom image',
+    //   background: '#fcf7f2'
+    // })
+    swal({
+      title: 'SENT',
+      text: 'Thank you! I\'ll be in touch shortly.',
+      imageUrl: 'https://cdn.dribbble.com/users/784413/screenshots/3818347/mail.gif',
+      imageAlt: 'Custom image',
+    })
   }
   render(){
     return(
-      <div className="contact"> 
+      <div id="contact"> 
         <h5> Contact </h5>
         <form id="contactForm">
           <div className="form-group">

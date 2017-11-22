@@ -30,3 +30,34 @@
 body {
   /* overflow-x: hidden ; */
 }
+
+.particlesHeader {
+  background: #16222A !important; 
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A) !important;
+  background: linear-gradient(to bottom, #16222A ,rgb(0, 0, 0) 40%) !important; 
+  
+}
+
+#learnMore {
+  background: rgb(255, 230, 0);
+  padding: 15px;
+  font-size: 25px;
+  pointer-events: auto;
+  border:none;
+  border-radius: 15px;
+  border-bottom: 5px solid rgb(255, 174, 0);
+  transition: 1s;
+}
+#learnMore:hover {
+  background: rgb(255, 174, 0);
+  border-bottom: 5px solid rgb(255, 140, 0);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+#learnMore:active, 
+#learnMore:focus, 
+#learnMore.active {
+  outline:none;
+  box-shadow:none;
+}

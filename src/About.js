@@ -11,11 +11,12 @@ class About extends React.Component {
 
   render(){
     return(
-      <div>
-      <div className="header">
-
-      </div>
+      <div id="about">
       <h3> About me </h3>
+      <div className="pic"></div>
+      <h5>Simon Zheng</h5>
+      <p>Software Engineer</p>
+      <p>Hey Yall affaoisjfsdoifjsofijsafojsdfo</p>
       </div>
     )
   }

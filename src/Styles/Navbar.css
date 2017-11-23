@@ -5,6 +5,10 @@
   width: 50px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .navbar {
   /* background-color: transparent !important; */
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
@@ -25,4 +29,5 @@
 .nav-link:hover, .nav-link:active, .nav-link:focus {
   border-top: 1px solid red;
   border-bottom: 1px solid red;
+  cursor: pointer;
 }

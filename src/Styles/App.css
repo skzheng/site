@@ -46,13 +46,17 @@ body {
   border:none;
   border-radius: 15px;
   border-bottom: 5px solid rgb(255, 174, 0);
-  transition: 1s;
+  /* transition: 1s ease; */
 }
 #learnMore:hover {
-  background: rgb(255, 174, 0);
-  border-bottom: 5px solid rgb(255, 140, 0);
+  /* background: rgb(255, 174, 0); */
+  /* border-bottom: 5px solid rgb(255, 140, 0); */
   cursor: pointer;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  /* margin-top: 10px;
+  padding-top: 10px; */
+  border-bottom: 3px solid rgb(255, 174, 0);
+  transform: translateY(4px);
 }
 
 #learnMore:active, 

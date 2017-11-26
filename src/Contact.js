@@ -15,8 +15,9 @@ class Contact extends React.Component {
     this.handleEmail = this.handleEmail.bind(this);
     this.handleMessage = this.handleMessage.bind(this);
   }
+
   componentDidMount(){
-    
+    this.emailjs = window.emailjs;
   }
   handleName(e){
     this.setState({ name: e.target.value});
@@ -29,16 +30,20 @@ class Contact extends React.Component {
   }
   sendEmail(e){
     e.preventDefault();
-    console.log(this.state.name, this.state.email, this.state.message);
     document.getElementById('contactForm').reset();
-    // swal ('Thank you!', 'Ill be in touch', 'success');
-    // swal({
-    //   title: 'SENT',
-    //   text: 'Thank you! I\'ll be in touch shortly.',
-    //   imageUrl: 'https://cdn.dribbble.com/users/29051/screenshots/3346063/header-sparkle-gif.gif',
-    //   imageAlt: 'Custom image',
-    //   background: '#fcf7f2'
-    // })
+    var service_id = 'gmail';
+    var template_id = 'website_email';
+    var template_params = {
+    name: this.state.name,
+    email: this.state.email,
+    message: this.state.message
+    };
+    this.emailjs.send(service_id,template_id,template_params)
+    .then(function(response) {
+      console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+    }, function(err) {
+      console.log("FAILED. error=", err);
+    });
     swal({
       title: 'SENT',
       text: 'Thank you! I\'ll be in touch shortly.',
@@ -46,21 +51,25 @@ class Contact extends React.Component {
       imageAlt: 'Custom image',
     })
   }
+  
   render(){
     return(
       <div id="contact"> 
-        <h5> Contact </h5>
+        <h1> Contact </h1>
         <form id="contactForm">
           <div className="form-group">
-            <label>Name</label>
-            <input onInput={this.handleName} type="text" className="form-control" id="inputName" placeholder="Name"/>
+            <div className="input-group">
+              <input onInput={this.handleName} type="text" className="form-control" id="inputName" placeholder="Name"/>
+            </div>
           </div>
           <div className="form-group">
-            <label>Email address</label>
-            <input onInput={this.handleEmail} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+            <div className="input-group">
+              <div className="input-group-addon">@</div>
+              <input onInput={this.handleEmail} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+            </div>
           </div>
-          <textarea onInput={this.handleMessage} className="form-control"/>
-          <button onClick={this.sendEmail} className="btn btn-primary">Submit</button>
+          <textarea onInput={this.handleMessage} className="form-control" placeholder="Enter message here..."/>
+          <button style={{marginTop:'15px'}}onClick={this.sendEmail} className="btn btn-primary">Submit</button>
         </form>
       </div>
     )

@@ -6,13 +6,17 @@ import About from './About';
 import Portfolio from  './Portfolio';
 import Contact from './Contact';
 import Blog from './Blog';
+import WOW from 'wowjs'
 
 import './Styles/App.css';
 
 class App extends Component {
+  componentDidMount(){
+    new WOW.WOW().init();
+  }
   render() {
     return (
-      <div className="App">
+      <div className="App wow fadeIn" data-wow-duration="2s" >
         <Navbar />
         <HeaderOverlay />
         <Particles 

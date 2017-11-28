@@ -11,18 +11,26 @@ class Portfolio extends React.Component {
 
   render(){
     return(
-      <div id="portfolio">
-        <h3> Previous Work </h3>
+      <div id="portfolio" className=" wow fadeIn" data-wow-duration="3s" data-wow-offset="300">
+        <h1> Portfolio </h1>
 
         <div className="hackerArena work">
           <div className="description">
-          <h4> Hacker Arena </h4>
+          <h2> Hacker Arena </h2>
           <p>Hacker Arena is an online multiplayer application where programmers can compete against others in real time to finish coding challenges.</p>
+          </div>
+          <div>
+            <a className="hoverLink" href="https://hacker-arena.com/">
+              <img className="workSS" alt="img" src="/assets/HA.png"/>
+            </a>
           </div>
         </div>
 
         <div className="legacyLearning work">
-          <div className="ml-auto description">
+          <div>
+              <img className="workSS" alt="img" src="/assets/LL.png"/>
+          </div>
+          <div className="description">
           <h4> Legacy Learning </h4>
           <p>A   platform   for   teachers   and   students   to   create   and   access   course   material   in   an   organized   manner.</p>
           </div>
@@ -33,10 +41,16 @@ class Portfolio extends React.Component {
           <h4> Snack Reactor</h4>
           <p>Food   finder   application   to   help   indecisive   users   choose   meals   by   fetching   businesses   within   walking   distance.</p>
           </div>
+          <div>
+              <img className="workSS" alt="img" src="/assets/SR.png"/>
+          </div>
         </div>
 
         <div className="partyStarty work">
-          <div className="ml-auto description">
+          <div>
+              <img className="workSS" alt="img" src="/assets/PS.png"/>
+          </div>
+          <div className="description">
           <h4> Party Starty </h4>
           <p>Event   planning   application   for   gathering   general   consensus   of   interest   in   activities.</p>
           </div>

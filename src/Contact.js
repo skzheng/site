@@ -30,31 +30,40 @@ class Contact extends React.Component {
   }
   sendEmail(e){
     e.preventDefault();
-    document.getElementById('contactForm').reset();
-    var service_id = 'gmail';
-    var template_id = 'website_email';
-    var template_params = {
-    name: this.state.name,
-    email: this.state.email,
-    message: this.state.message
-    };
-    this.emailjs.send(service_id,template_id,template_params)
-    .then(function(response) {
-      console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-    }, function(err) {
-      console.log("FAILED. error=", err);
-    });
-    swal({
-      title: 'SENT',
-      text: 'Thank you! I\'ll be in touch shortly.',
-      imageUrl: 'https://cdn.dribbble.com/users/784413/screenshots/3818347/mail.gif',
-      imageAlt: 'Custom image',
-    })
+    if( this.state.name && this.state.email && this.state.message){
+      document.getElementById('contactForm').reset();
+      var service_id = 'gmail';
+      var template_id = 'website_email';
+      var template_params = {
+      name: this.state.name,
+      email: this.state.email,
+      message: this.state.message
+      };
+      this.emailjs.send(service_id,template_id,template_params)
+      .then(function(response) {
+        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+      }, function(err) {
+        console.log("FAILED. error=", err);
+      });
+      swal({
+        title: 'SENT',
+        text: 'Thank you! I\'ll be in touch shortly.',
+        imageUrl: 'https://cdn.dribbble.com/users/784413/screenshots/3818347/mail.gif',
+        imageAlt: 'Custom image',
+      })
+    } else {
+      swal(
+        'Error',
+        'Please fill out all fields!',
+        'error'
+      )
+    }
+    
   }
   
   render(){
     return(
-      <div id="contact"> 
+      <div id="contact" className=" wow fadeIn" data-wow-duration="3s"> 
         <h1> Contact </h1>
         <form id="contactForm">
           <div className="form-group">
@@ -69,7 +78,7 @@ class Contact extends React.Component {
             </div>
           </div>
           <textarea onInput={this.handleMessage} className="form-control" placeholder="Enter message here..."/>
-          <button style={{marginTop:'15px'}}onClick={this.sendEmail} className="btn btn-primary">Submit</button>
+          <button style={{marginTop:'15px'}} onClick={this.sendEmail} className="btn btn-primary">Submit</button>
         </form>
       </div>
     )

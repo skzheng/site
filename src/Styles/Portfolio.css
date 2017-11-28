@@ -1,9 +1,10 @@
 .work {
   width: 100vw;
-  height: 250px;
+  height: 350px;
   border: 1px solid rgba(187, 187, 187, 0.267); 
   display:flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .description {
@@ -11,3 +12,23 @@
   margin: 20px;
 }
 
+.workSS {
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.workSS:hover {
+  filter: brightness(.8)
+}
+
+.hoverLink {
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+}
+.hoverLink:hover {
+  opacity: 1;
+}

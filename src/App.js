@@ -7,7 +7,6 @@ import Portfolio from  './Portfolio';
 import Contact from './Contact';
 import Blog from './Blog';
 import WOW from 'wowjs'
-import Typed from 'typed.js';
 import './Styles/App.css';
 
 class App extends Component {

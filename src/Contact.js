@@ -64,7 +64,7 @@ class Contact extends React.Component {
   render(){
     return(
       <div id="contact" className=" wow fadeIn" data-wow-duration="2s"> 
-        <img className="icon" src="/assets/contact.png" />
+        <img className="icon" src="/assets/contact.png" alt="contact" />
         <h1> Contact </h1>
         <form id="contactForm">
           <div className="form-group">

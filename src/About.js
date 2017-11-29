@@ -18,7 +18,7 @@ class About extends React.Component {
       <div id="about" >
         <div className="wow fadeIn" data-wow-duration="3s" data-wow-offset="300">
         <h1>About</h1>
-        <div className="underline"></div>
+        {/* <div className="underline"></div> */}
         <div className="pic"></div>
         {/* <h4 className="lato">Simon Zheng</h4>
         <p className="text-muted">Software Engineer</p> */}
@@ -32,9 +32,9 @@ class About extends React.Component {
           <br />
           <br />
           I graduated from Stony Brook University with B.S. in Applied Mathematics and Statistics in 2014, pursuing a career in education but have since switched 
-          gears to pursue a life-long dream of software engineering. Current seeking opportunities while following my interests for data, design, and dance. Check out some of my work below!
+          gears to pursue a life-long dream of software engineering. Currently seeking opportunities while following my interests for data, design, and dance. Check out some of my work below!
         </p>
-        <img id="more" className="contactLogos" src="/assets/down.png" onClick={this.handleScroll}/>
+        <img id="more" className="contactLogos" src="/assets/down.png" alt="down" onClick={this.handleScroll}/>
         <div className="slider"></div>
         </div>
       </div>

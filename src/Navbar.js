@@ -25,7 +25,7 @@ class Navbar extends React.Component {
       }, 800);
     } else {
       $('html, body').animate({
-        scrollTop: $(loc).offset().top - 70
+        scrollTop: $(loc).offset().top - 80
       }, 800);
     }
   }

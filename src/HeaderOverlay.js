@@ -40,7 +40,8 @@ class HeaderOverlay extends React.Component {
           <h2
             style={{ whiteSpace: 'pre' }}
             ref={(el) => { this.el = el; }}
-          />
+            >
+          </h2>
         </div>
         {/* <h2 id="headerDescription" className= "wow fadeIn" data-wow-duration="3s" data-wow-delay="1s"> &lt; Full Stack Javascript Software Engineer /> </h2> */}
         <button id="learnMore" className=" wow fadeIn" data-wow-duration="3s" data-wow-delay="3s" onClick={this.handleLearnMore} >Learn more</button>

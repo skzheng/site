@@ -15,9 +15,9 @@
 .workSS {
   height: 250px;
   width: 400px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), -3px 5px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .workSS:hover {
@@ -31,4 +31,37 @@
 }
 .hoverLink:hover {
   opacity: 1;
+}
+
+.portHeader {
+  color: rgb(31, 30, 30);
+  font-family: 'Lato' !important;
+  font-weight: '900';
+}
+
+.line {
+  height: 1px;
+  width: 200px;
+  background: black;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.visitSite {
+  background:white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  margin: 15px !important;
+}
+
+.visitSite:hover {
+  color: rgb(255, 255, 255);
+  background: black;
+  text-decoration: none;
+}
+
+#portfolioHeader {
+  color: rgb(84, 96, 136);
 }

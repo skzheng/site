@@ -1,4 +1,17 @@
 #contact {
+  /* width: 400px; */
+  margin: 0 auto;
+  height: 600px;
+  /* display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center; */
+  margin-top: 10px;
+  background: url('/assets/botBG.png') no-repeat;
+  background-size: 100% 100%;
+
+}
+#contactForm {
   width: 400px;
   margin: 0 auto;
 }

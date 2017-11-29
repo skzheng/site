@@ -7,12 +7,12 @@ import Portfolio from  './Portfolio';
 import Contact from './Contact';
 import Blog from './Blog';
 import WOW from 'wowjs'
-
+import Typed from 'typed.js';
 import './Styles/App.css';
 
 class App extends Component {
   componentDidMount(){
-    new WOW.WOW().init();
+    new WOW.WOW({live:false}).init();
   }
   render() {
     return (
@@ -66,7 +66,7 @@ class App extends Component {
                 }
               }}
             />
-        
+            
         <About />
         <Portfolio />
         <Contact />

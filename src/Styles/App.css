@@ -2,7 +2,8 @@
   visibility: hidden;
 }
 body {
-  /* overflow-x: hidden ; */
+  overflow-x: hidden;
+  margin: 0;
   /* background-color: rgb(242, 241, 238); */
   text-align: center;
 }
@@ -15,13 +16,13 @@ body {
 }
 
 #learnMore {
-  background: rgb(255, 230, 0);
+  background: #2ACFA6;
   padding: 15px;
   font-size: 25px;
   pointer-events: auto;
   border:none;
-  border-radius: 15px;
-  border-bottom: 5px solid rgb(255, 174, 0);
+  border-radius: 5px;
+  border-bottom: 5px solid rgb(34, 116, 96);
   margin-top: 20px;
   font-family: "Lato";
   font-weight: 500;
@@ -30,13 +31,13 @@ body {
   /* transition: 1s ease; */
 }
 #learnMore:hover {
-  background: rgb(255, 235, 101);
+  background: rgb(106, 230, 199);
   /* border-bottom: 5px solid rgb(255, 140, 0); */
   cursor: pointer;
   /* color: rgb(255, 255, 255); */
   /* margin-top: 10px;
   padding-top: 10px; */
-  border-bottom: 3px solid rgb(255, 174, 0);
+  border-bottom: 3px solid rgb(34, 116, 96);
   transform: translateY(4px);
 }
 
@@ -55,8 +56,26 @@ body {
 }
 
 .underline {
-  height: 3px;
+  height: 2px;
   width: 300px;
   background: white;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.textShadow {
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.253);
+}
+
+.lato { 
+  font-family: 'Lato' !important;
+}
+
+p {
+  /* font-family: 'Open Sans' */
+}
+
+.icon {
+  height: 180px;
+  width: 180px;
 }

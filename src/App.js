@@ -6,16 +6,19 @@ import About from './About';
 import Portfolio from  './Portfolio';
 import Contact from './Contact';
 import Blog from './Blog';
-import WOW from 'wowjs'
+import WOW from 'wowjs';
+// import * as $ from 'jquery';
 import './Styles/App.css';
+
 
 class App extends Component {
   componentDidMount(){
     new WOW.WOW({live:false}).init();
+    // $('body').scrollspy({ target: '#navbar-example' })
   }
   render() {
     return (
-      <div className="App wow fadeIn" data-wow-duration="2s" >
+      <div className="App wow fadeIn" data-wow-duration="2s" data-spy="scroll" data-target="navbarScroll">
         <Navbar />
         <HeaderOverlay />
         <Particles 

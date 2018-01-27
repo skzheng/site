@@ -12,10 +12,16 @@
 
 }
 #contactForm {
-  width: 400px;
+  width: 40vw;
   margin: 0 auto;
 }
 
 #contact > * {
   padding: 10px;
+}
+
+@media (max-width:700px) {
+  #contactForm {
+    width: 70vw;
+  }
 }

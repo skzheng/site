@@ -14,9 +14,9 @@ import './Styles/App.css';
 class App extends Component {
   componentDidMount(){
     new WOW.WOW({live:false}).init();
-    // $('body').scrollspy({ target: '#navbar-example' })
   }
   render() {
+    const mq = window.matchMedia("(min-width:700px)");
     return (
       <div className="App wow fadeIn" data-wow-duration="2s" data-spy="scroll" data-target="navbarScroll">
         <Navbar />
@@ -33,7 +33,7 @@ class App extends Component {
             				}
                   },
                   number :{
-                    value : 100
+                    value : (mq.matches ? 100 : 40)
                   },
                   size : {
                     value : 3,
@@ -68,7 +68,6 @@ class App extends Component {
                 }
               }}
             />
-            
         <About />
         <Portfolio />
         <Contact />

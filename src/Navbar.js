@@ -10,12 +10,14 @@ class Navbar extends React.Component {
     }
     this.handleScroll = this.handleScroll.bind(this);
   }
+
   componentDidMount(){
     $(".nav-link").on("click", function() {
       $(".nav-link").removeClass("active");
       $(this).addClass("active");
     });
   }
+  
   handleScroll(e){
     e.preventDefault();
     let loc = $(e.target).data('link');
@@ -32,7 +34,7 @@ class Navbar extends React.Component {
   render(){
 
     return (
-      <div id="navbarScroll" className='sticky'>
+      <div id="navbarScroll">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

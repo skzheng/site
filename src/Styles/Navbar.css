@@ -3,6 +3,7 @@
   background-size: cover;
   height: 60px;
   width: 60px;
+  /* padding-top: 0; */
 }
 
 .logo:hover {
@@ -15,6 +16,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   background-color: white !important;
   border-bottom: 2px solid #2ACFA6;
+  height: 60px;
 }
 .sticky {
   top: 0px !important;

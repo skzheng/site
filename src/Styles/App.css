@@ -1,24 +1,33 @@
 .wow {
   visibility: hidden;
 }
+
 body {
-  overflow-x: hidden;
-  margin: 0;
+  margin: 0 !important;
+  min-width: 100% !important;
   /* background-color: rgb(242, 241, 238); */
   text-align: center;
+}
+
+@media (min-width: 700px){
+  html, body {
+    /* width: 100%; */
+    overflow-x: hidden !important; 
+  }
 }
 
 .particlesHeader {
   background: #16222A !important; 
   background: -webkit-linear-gradient(to right, #3A6073, #16222A) !important;
   background: linear-gradient(to bottom, #16222A ,rgb(0, 0, 0) 40%) !important; 
-  
+  height: 100vh;
 }
+
 
 #learnMore {
   background: #2ACFA6;
-  padding: 15px;
-  font-size: 25px;
+  padding: 1rem;
+  font-size: 1.4rem;
   pointer-events: auto;
   border:none;
   border-radius: 5px;
@@ -47,20 +56,13 @@ body {
   outline:none;
   box-shadow:none;
 }
+
 #picName {
   display:flex;
 }
 
 #headerDescription {
   font-weight: 900;
-}
-
-.underline {
-  height: 2px;
-  width: 300px;
-  background: white;
-  margin: 0 auto;
-  margin-bottom: 20px;
 }
 
 .textShadow {
@@ -71,11 +73,13 @@ body {
   font-family: 'Lato' !important;
 }
 
-p {
-  /* font-family: 'Open Sans' */
-}
-
 .icon {
   height: 180px;
   width: 180px;
+}
+
+@media (max-width: 700px) {
+  .typeHeader {
+    font-size: 2vh;
+  }
 }

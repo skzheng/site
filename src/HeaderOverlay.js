@@ -32,12 +32,12 @@ class HeaderOverlay extends React.Component {
   render(){
     return (
       <div className="header">
-        <div className=" wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
+        <div className="wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
           <img id="headerLogo" alt="headerLogo" src="/assets/whitelogo.png" />
           <h1 id="headerName"> Simon Zheng </h1> 
         </div>
         <div className="type-wrap wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
-          <h2
+          <h2 className="typeHeader"
             style={{ whiteSpace: 'pre' }}
             ref={(el) => { this.el = el; }}
             >

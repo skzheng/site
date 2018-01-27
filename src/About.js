@@ -18,10 +18,7 @@ class About extends React.Component {
       <div id="about" >
         <div className="wow fadeIn" data-wow-duration="3s" data-wow-offset="300">
         <h1>About</h1>
-        {/* <div className="underline"></div> */}
         <div className="pic"></div>
-        {/* <h4 className="lato">Simon Zheng</h4>
-        <p className="text-muted">Software Engineer</p> */}
         <div id="contacts">
           <img className="contactLogos" alt="linkedIn" src="/assets/linkedlogo.png" /><a className="aLink" href="https://www.linkedin.com/in/simonkzheng/"> LinkedIn </a>
           <img className="contactLogos" alt="github" src="/assets/githublogo.png" /><a className="aLink" href="https://github.com/skzheng"> GitHub </a>

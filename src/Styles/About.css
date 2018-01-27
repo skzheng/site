@@ -1,16 +1,14 @@
 .header {
   display:flex;
   flex-direction: column;
-  position:absolute;
+  position: absolute;
   color: white;
   pointer-events: none;
-  height: 100%;
+  height: 100vh;
   align-items: center;
   align-content: center;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 800px;
+  margin: auto;
+  width: 100vw;
   text-align: center;
 }
 .pic {
@@ -26,7 +24,7 @@
 }
 #headerLogo {
   margin-top: 15%;
-  height: 200px;
+  height: 25vh;
 }
 
 .contactLogos {
@@ -40,7 +38,7 @@
   background-size: 100% 100%;
   /* background-image: -webkit-linear-gradient(280deg, black  50%, rgb(11, 11, 11)  70%); */
   color:rgb(255, 255, 255);
-  height: 850px;
+  height: 110vh;
 }
 
 #about > * {
@@ -74,7 +72,7 @@ h2 {
 
 #aboutBio {
   color: rgb(255, 255, 255);
-  width: 600px;
+  width: 60vw;
   margin: 0 auto;
   font-family: 'Lato';
   font-weight: 500;
@@ -85,7 +83,7 @@ h2 {
 }
 
 .slider {
-  height: 150px;
+  height: 160px;
   width: 200%;
   background: url('/assets/techStack copy.png') repeat-x;
   background-size: 150%;

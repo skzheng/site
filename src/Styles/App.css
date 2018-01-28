@@ -82,4 +82,9 @@ body {
   .typeHeader {
     font-size: 2vh;
   }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }

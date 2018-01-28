@@ -27,7 +27,7 @@ class Navbar extends React.Component {
       }, 800);
     } else {
       $('html, body').animate({
-        scrollTop: $(loc).offset().top - 80
+        scrollTop: $(loc).offset().top
       }, 800);
     }
   }
@@ -35,7 +35,7 @@ class Navbar extends React.Component {
 
     return (
       <div id="navbarScroll">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-sm navbar-light bg-light navbar-fixed-top">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -49,9 +49,6 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link" onClick={this.handleScroll} data-link="#portfolio">Portfolio</a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="">Blog</a>
-              </li> */}
               <li className="nav-item">
                 <a className="nav-link" onClick={this.handleScroll} data-link="#contact">Contact</a>
               </li>

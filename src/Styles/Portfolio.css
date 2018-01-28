@@ -1,22 +1,24 @@
 .work {
   width: 100vw;
-  height: 500px;
+  height: 100%;
   border: 1px solid rgba(187, 187, 187, 0.267); 
   display:flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .description {
-  max-width: 500px;
+  /* max-width: 500px; */
   margin: 20px;
+  width: 45vw;
 }
 
 .workSS {
-  height: 330px;
-  width: 500px;
+  height: 30vw;
+  width: 40vw;
   /* border-radius: 10px; */
-
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.404), -3px 5px 10px 0 rgba(0, 0, 0, 0.473);
 }
 
@@ -61,6 +63,7 @@
   text-decoration: none;
 }
 
+
 #portfolioHeader {
   color: #2ACFA6;
 }
@@ -100,4 +103,36 @@
 .mainDescription {
   font-size: 15px;
   margin-bottom: 30px;
+}
+
+@media (max-width:700px){
+  #portfolio{
+    margin-top: 5vh;
+  }
+
+  .work { 
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .description {
+    width: 90vw;
+  }
+
+  .workSS {
+    width: 72vw;
+    height: 50vw;
+  }
+
+  .visitSite {
+    margin: 50px;
+  }
+
+  .legacyLearning {
+    flex-direction: column-reverse;
+  }
+
+  .partyStarty {
+    flex-direction: column-reverse;
+  }
 }

@@ -16,8 +16,9 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   background-color: white !important;
   border-bottom: 2px solid #2ACFA6;
-  height: 60px;
+  /* height: 60px; */
 }
+
 .sticky {
   top: 0px !important;
   left: 0px;
@@ -46,5 +47,5 @@
 
 .show {
   z-index: 999;
-  background: red;
+  /* background: red; */
 }

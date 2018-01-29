@@ -41,7 +41,7 @@ class Navbar extends React.Component {
           </button>
           <div className="navbar-brand logo" src='/assets/myLogo.png'  onClick={this.handleScroll} data-link="top"></div>
 
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <div className="navbar-collapse collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <li className="nav-item">
                 <a className="nav-link" onClick={this.handleScroll} data-link="#about">About</a>

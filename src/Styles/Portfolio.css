@@ -18,7 +18,7 @@
 .workSS {
   height: 30vw;
   width: 40vw;
-  /* border-radius: 10px; */
+  border-radius: 5px;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.404), -3px 5px 10px 0 rgba(0, 0, 0, 0.473);
 }
 
@@ -101,10 +101,17 @@
 }
 
 .mainDescription {
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 30px;
 }
 
+.legacyLearning{
+  background: #F6F9FC
+}
+
+.partyStarty {
+  background: #F6F9FC
+}
 @media (max-width:700px){
   #portfolio{
     margin-top: 5vh;

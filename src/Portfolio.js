@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
   render(){
     return(
       <div id="portfolio">
-        <h1 id="portfolioHeader"> Portfolio </h1>
+        <h1 id="portfolioHeader"> Applications </h1>
 
         <div className="hackerArena work wow fadeIn" data-wow-duration="2s">
           <div className="description">

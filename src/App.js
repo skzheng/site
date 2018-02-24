@@ -4,6 +4,7 @@ import Particles from 'react-particles-js';
 import HeaderOverlay from './HeaderOverlay';
 import About from './About';
 import Portfolio from  './Portfolio';
+import Projects from './Projects';
 import Contact from './Contact';
 import Blog from './Blog';
 import WOW from 'wowjs';
@@ -70,6 +71,7 @@ class App extends Component {
             />
         <About />
         <Portfolio />
+        <Projects />
         <Contact />
         <Blog />
       </div>

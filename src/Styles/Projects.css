@@ -8,15 +8,20 @@
 
 #projects-container {
   display: flex;
+  /* flex: 1; */
   flex-wrap: wrap;
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
 }
 
-.project {
-  /* width: 30vw; */
-}
+/* .project {
+  width: 30vw;
+} */
+
+.project-description {
+  width: 40vw;
+} 
 
 .project-pic {
   border-radius: 5px;

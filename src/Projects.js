@@ -34,16 +34,18 @@ class Projects extends React.Component {
           </div>
         </div>
 
-        {/* <div className="project wow fadeIn" data-wow-duration="2s">
+        <div className="pbp project wow fadeIn" data-wow-duration="2s">
           <div className="project-description">
-            <h2 className="project-title"> ??? </h2>
-            <img className="project-pic" src=""/>
+            <h2 className="project-title"> Powered By Pulsd </h2>
+            <img className="project-pic" src="/assets/pbp.png"/>
             <p className="mainDescription">
-              For the logophile who doesn't want to be late and hates numbers.
+              Demo for a React component compiled as a widget library with webpack. 
+              Used for content syndication for an event based site.
+              <br />
             </p>
-            <a className="hoverLink visitSite" href="">Visit site</a>
+            <a className="hoverLink visitSite" href="https://github.com/skzheng/pulsd">Visit Github</a>
           </div>
-        </div> */}
+        </div>
 
         </div>
 

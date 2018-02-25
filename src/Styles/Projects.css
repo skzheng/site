@@ -1,5 +1,6 @@
 #projects {
   min-height: 80vh;
+  margin-bottom: 10vh;
 }
 #projectsHeader {
   margin: 1rem;
@@ -38,4 +39,10 @@
   font-family: 'Lato' !important;
   font-weight: '900';
   font-size: 1.5rem;
+}
+
+@media (max-width:700px){
+  .project-description {
+    width: 60vw;
+  }
 }

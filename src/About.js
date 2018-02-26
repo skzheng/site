@@ -10,7 +10,7 @@ class About extends React.Component {
   }
   handleScroll(){
     $('html, body').animate({
-      scrollTop: $('#portfolio').offset().top - 72
+      scrollTop: $('#portfolio').offset().top
     }, 800);
   }
   render(){

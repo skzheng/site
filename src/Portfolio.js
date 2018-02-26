@@ -28,7 +28,7 @@ class Portfolio extends React.Component {
             <a className="hoverLink visitSite" href="https://hacker-arena.com/">Visit site</a>
           </div>
     
-          <div id="carouselExampleIndicators" className="carousel slide workSS" data-ride="carousel">
+          <div id="carouselExampleIndicators" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -40,47 +40,47 @@ class Portfolio extends React.Component {
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className=" workSS" src="/assets/HA0.png" alt="First slide"/>
+                <img className="modal-image workSS" src="/assets/HA0.png" alt="First slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Classic Mode / In Game</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/HA1.png" alt="second slide"/>
+                <img className="modal-image workSS" src="/assets/HA1.png" alt="second slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home / Login</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/HA2.png" alt="third slide"/>
+                <img className="modal-image workSS" src="/assets/HA2.png" alt="third slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home / Introduction</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/HA3.png" alt="fourth slide"/>
+                <img className="modal-image workSS" src="/assets/HA3.png" alt="fourth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home / Game Modes</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/HA4.png" alt="fifth slide"/>
+                <img className="modal-image workSS" src="/assets/HA4.png" alt="fifth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home / Disruptions</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/HA5.png" alt="sixth slide"/>
+                <img className="modal-image workSS" src="/assets/HA5.png" alt="sixth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Profile / Statistics</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/HA6.png" alt="seventh slide"/>
+                <img className="modal-image workSS" src="/assets/HA6.png" alt="seventh slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home / Team</p>
                 </div>
@@ -99,7 +99,7 @@ class Portfolio extends React.Component {
         </div>
 
         <div className="legacyLearning work wow fadeIn" data-wow-duration="2s">
-          <div id="carouselExampleIndicators2" className="carousel slide workSS" data-ride="carousel">
+          <div id="carouselExampleIndicators2" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators2" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -110,41 +110,41 @@ class Portfolio extends React.Component {
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className=" workSS" src="/assets/LL.png" alt="First slide"/>
+                <img className="modal-image workSS" src="/assets/LL.png" alt="First slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Login</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/LL1.png" alt="third slide"/>
+                <img className="modal-image workSS" src="/assets/LL1.png" alt="third slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/LL2.png" alt="third slide"/>
+                <img className="modal-image workSS" src="/assets/LL2.png" alt="third slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home / Lessons Collection</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/LL3.png" alt="fourth slide"/>
+                <img className="modal-image workSS" src="/assets/LL3.png" alt="fourth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Create Lesson / Video Search</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/LL4.png" alt="fifth slide"/>
+                <img className="modal-image workSS" src="/assets/LL4.png" alt="fifth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">View Lesson / Video + Annotations</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/LL5.png" alt="sixth slide"/>
+                <img className="modal-image workSS" src="/assets/LL5.png" alt="sixth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">View Lesson / Article + Chat</p>
                 </div>
@@ -189,7 +189,7 @@ class Portfolio extends React.Component {
               to the restaurant from their location, with an option to send a SMS message to notify other guests.
             </p>
           </div>
-          <div id="carouselExampleIndicators3" className="carousel slide workSS" data-ride="carousel">
+          <div id="carouselExampleIndicators3" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators3" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
@@ -206,21 +206,21 @@ class Portfolio extends React.Component {
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/SR1.png" alt="second slide"/>
+                <img className="modal-image workSS" src="/assets/SR1.png" alt="second slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Results Screen / Two Selections</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/SR2.png" alt="third slide"/>
+                <img className="modal-image workSS" src="/assets/SR2.png" alt="third slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Results Screen / Five Selections</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/SR3.png" alt="fourth slide"/>
+                <img className="modal-image workSS" src="/assets/SR3.png" alt="fourth slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Home</p>
                 </div>
@@ -239,21 +239,21 @@ class Portfolio extends React.Component {
         </div>
 
         <div className="partyStarty work wow fadeIn" data-wow-duration="2s">
-          <div id="carouselExampleIndicators4" className="carousel slide workSS" data-ride="carousel">
+          <div id="carouselExampleIndicators4" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators4" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img className=" workSS" src="/assets/PS.png" alt="First slide"/>
+                <img className="modal-image workSS" src="/assets/PS.png" alt="First slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Event Creation / Movie Queue</p>
                 </div>
               </div>
 
               <div className="carousel-item">
-                <img className=" workSS" src="/assets/PS1.png" alt="second slide"/>
+                <img className="modal-image workSS" src="/assets/PS1.png" alt="second slide"/>
                 <div className="carousel-caption">
                   <p className="text-muted small">Event Creation / Settings</p>
                 </div>

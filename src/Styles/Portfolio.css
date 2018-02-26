@@ -9,6 +9,15 @@
   padding-bottom: 10vh;
 }
 
+
+.carousel-left {
+  margin-left: 3rem;
+}
+
+.carousel-right {
+  margin-right: 2rem;
+}
+
 .description {
   /* max-width: 500px; */
   margin: 20px;
@@ -142,5 +151,10 @@
 
   .partyStarty {
     flex-direction: column-reverse;
+  }
+
+  .carousel-left, .carousel-right {
+    margin-left: 0;
+    margin-right: 0;
   }
 }

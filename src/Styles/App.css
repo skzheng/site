@@ -77,6 +77,33 @@ body {
   height: 180px;
   width: 180px;
 }
+.zoom {
+  transition: 0.8s transform ease;
+  
+}
+.zoom:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.ReactModal__Overlay {
+  z-index: 999;
+}
+
+#modalparent {
+  height: 100%;
+  width: 100%;
+
+  background-size: 100% 100% !important;
+}
+
+#close-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+}
 
 @media (max-width: 700px) {
   .typeHeader {

@@ -13,7 +13,57 @@ class Portfolio extends React.Component {
       <div id="portfolio">
         <h1 id="portfolioHeader"> Applications </h1>
 
-        <div className="hackerArena work wow fadeIn" data-wow-duration="2s">
+        <div className="tidder work wow fadeIn" data-wow-duration="2s">
+        <div id="carouselExampleIndicators" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
+            <ol className="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img className="modal-image workSS" src="/assets/T1.png" alt="First slide"/>
+                <div className="carousel-caption">
+                  <p className="text-muted small">Home + Content Preview</p>
+                </div>
+              </div>
+
+              <div className="carousel-item">
+                <img className="modal-image workSS" src="/assets/T2.png" alt="second slide"/>
+                <div className="carousel-caption">
+                  <p className="text-muted small">Topic View</p>
+                </div>
+              </div>
+
+              <div className="carousel-item">
+                <img className="modal-image workSS" src="/assets/T3.png" alt="third slide"/>
+                <div className="carousel-caption">
+                  <p className="text-muted small">Subreddit View + Autocomplete Search</p>
+                </div>
+              </div>
+              
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+          <div className="description">
+            <h2 className="portHeader"> Tidder </h2>
+            <p className="text-muted small">Tidder description</p>
+            <div className="line"></div>
+            <p className="mainDescription">
+            </p>
+            <a className="hoverLink visitSite" href="https://fptidder.firebaseapp.com/">Visit site</a>
+          </div>
+  
+        </div>
+
+        <div className="hackerArena  bluish work wow fadeIn" data-wow-duration="2s">
           <div className="description">
             <h2 className="portHeader"> Hacker Arena </h2>
             <p className="text-muted small">An online multiplayer application where programmers can compete against others in real time to finish coding challenges.</p>
@@ -174,7 +224,7 @@ class Portfolio extends React.Component {
           </div>
         </div>
 
-        <div className="snackReactor work wow fadeIn" data-wow-duration="2s">
+        <div className="snackReactor bluish work wow fadeIn" data-wow-duration="2s">
           <div className="description">
             <h2 className="portHeader"> Snack Reactor</h2>
             <p className="text-muted small">Food   finder   application   to   help   indecisive   users   choose   meals   by   fetching   businesses   within   walking   distance.</p>

@@ -115,13 +115,10 @@
   margin-bottom: 30px;
 }
 
-.legacyLearning{
+.bluish {
   background: #F6F9FC
 }
 
-.partyStarty {
-  background: #F6F9FC
-}
 @media (max-width:700px){
   #portfolio{
     margin-top: 5vh;

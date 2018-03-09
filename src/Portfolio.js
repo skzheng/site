@@ -14,7 +14,19 @@ class Portfolio extends React.Component {
         <h1 id="portfolioHeader"> Applications </h1>
 
         <div className="tidder work wow fadeIn" data-wow-duration="2s">
-        <div id="carouselExampleIndicators" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
+
+
+        <div className="description">
+            <h2 className="portHeader"> Tidder </h2>
+            <p className="text-muted small">An application built off of the Reddit API</p>
+            <div className="line"></div>
+            <p className="mainDescription">
+              PLACEHOLDER
+            </p>
+            <a className="hoverLink visitSite" target="_blank" href="https://fptidder.firebaseapp.com/">Visit site</a>
+          </div>
+
+        <div id="carouselExampleIndicators" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -51,34 +63,12 @@ class Portfolio extends React.Component {
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="sr-only">Next</span>
             </a>
-          </div>
-          <div className="description">
-            <h2 className="portHeader"> Tidder </h2>
-            <p className="text-muted small">Tidder description</p>
-            <div className="line"></div>
-            <p className="mainDescription">
-            </p>
-            <a className="hoverLink visitSite" href="https://fptidder.firebaseapp.com/">Visit site</a>
-          </div>
+        </div>
   
         </div>
 
         <div className="hackerArena  bluish work wow fadeIn" data-wow-duration="2s">
-          <div className="description">
-            <h2 className="portHeader"> Hacker Arena </h2>
-            <p className="text-muted small">An online multiplayer application where programmers can compete against others in real time to finish coding challenges.</p>
-            <div className="line"></div>
-            <p className="mainDescription">Hacker Arena is our solution to cookie cutter coding challenge conundrum.
-              We sought out to make the process of learning coding less monotonous by implementing different mechanics into the lifecycle of a toy problem solution.
-              <br />
-              <br />
-              Players can choose one of four game modes Classic, Pair, Code Run, and Solo. Across these different modes, players will interact with with others in real time,
-              sending and receiving <em>disruptions</em> that will change user interfaces, all while racing to finish the challenge.
-            </p>
-            <a className="hoverLink visitSite" href="https://hacker-arena.com/">Visit site</a>
-          </div>
-    
-          <div id="carouselExampleIndicators" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
+        <div id="carouselExampleIndicators" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -146,10 +136,39 @@ class Portfolio extends React.Component {
               <span className="sr-only">Next</span>
             </a>
           </div>
+
+          <div className="description">
+            <h2 className="portHeader"> Hacker Arena </h2>
+            <p className="text-muted small">An online multiplayer application where programmers can compete against others in real time to finish coding challenges.</p>
+            <div className="line"></div>
+            <p className="mainDescription">Hacker Arena is our solution to cookie cutter coding challenge conundrum.
+              We sought out to make the process of learning coding less monotonous by implementing different mechanics into the lifecycle of a toy problem solution.
+              <br />
+              <br />
+              Players can choose one of four game modes Classic, Pair, Code Run, and Solo. Across these different modes, players will interact with with others in real time,
+              sending and receiving <em>disruptions</em> that will change user interfaces, all while racing to finish the challenge.
+            </p>
+            <a className="hoverLink visitSite" target="_blank" href="https://hacker-arena.com/">Visit site</a>
+          </div>
+    
+          
         </div>
 
         <div className="legacyLearning work wow fadeIn" data-wow-duration="2s">
-          <div id="carouselExampleIndicators2" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
+        <div className="description">
+            <h2 className="portHeader"> Legacy Learning </h2>
+            <p className="text-muted small">A   platform   for   teachers   and   students   to   create   and   access   course   material   in   an   organized   manner.</p>
+            <div className="line"></div>
+            <p className="mainDescription">Legacy Learning is an application for educators to create lessons in a slideshow format by aggregating content across the web.
+              Students can browse through public presentations to find their course specific slides and other resources.
+              <br />
+              <br/>
+              Users can construct slide decks utilizing text, article embedding, images, or videos with annotation overlays. Within each
+              lesson, users can communicate on a complementary discussion board or in real-time with a live chat. 
+            </p>
+          </div>
+
+          <div id="carouselExampleIndicators2" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators2" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
@@ -210,36 +229,12 @@ class Portfolio extends React.Component {
               <span className="sr-only">Next</span>
             </a>
           </div>
-          <div className="description">
-            <h2 className="portHeader"> Legacy Learning </h2>
-            <p className="text-muted small">A   platform   for   teachers   and   students   to   create   and   access   course   material   in   an   organized   manner.</p>
-            <div className="line"></div>
-            <p className="mainDescription">Legacy Learning is an application for educators to create lessons in a slideshow format by aggregating content across the web.
-              Students can browse through public presentations to find their course specific slides and other resources.
-              <br />
-              <br/>
-              Users can construct slide decks utilizing text, article embedding, images, or videos with annotation overlays. Within each
-              lesson, users can communicate on a complementary discussion board or in real-time with a live chat. 
-            </p>
-          </div>
+          
         </div>
 
         <div className="snackReactor bluish work wow fadeIn" data-wow-duration="2s">
-          <div className="description">
-            <h2 className="portHeader"> Snack Reactor</h2>
-            <p className="text-muted small">Food   finder   application   to   help   indecisive   users   choose   meals   by   fetching   businesses   within   walking   distance.</p>
-            <div className="line"></div>
-            <p className="mainDescription">Snack Reactor is the answer to the crippling obstacle affecting millions of 
-              people a day. <em>Where do you want to eat?</em> Snack Reactor removes much of the decision process by 
-              randomly producing nearby restaurants, which users can then filter to their own liking. 
-              <br/>
-              <br/>
-              Users will receive recommendations for five locations to eat near the user's current location, selecting two, users will
-              then allow the next guest to pick a final location. Upon selecting a final location, users will receive a customize route 
-              to the restaurant from their location, with an option to send a SMS message to notify other guests.
-            </p>
-          </div>
-          <div id="carouselExampleIndicators3" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
+          
+          <div id="carouselExampleIndicators3" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators3" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
@@ -286,10 +281,40 @@ class Portfolio extends React.Component {
               <span className="sr-only">Next</span>
             </a>
           </div>
+
+          <div className="description">
+            <h2 className="portHeader"> Snack Reactor</h2>
+            <p className="text-muted small">Food   finder   application   to   help   indecisive   users   choose   meals   by   fetching   businesses   within   walking   distance.</p>
+            <div className="line"></div>
+            <p className="mainDescription">Snack Reactor is the answer to the crippling obstacle affecting millions of 
+              people a day. <em>Where do you want to eat?</em> Snack Reactor removes much of the decision process by 
+              randomly producing nearby restaurants, which users can then filter to their own liking. 
+              <br/>
+              <br/>
+              Users will receive recommendations for five locations to eat near the user's current location, selecting two, users will
+              then allow the next guest to pick a final location. Upon selecting a final location, users will receive a customize route 
+              to the restaurant from their location, with an option to send a SMS message to notify other guests.
+            </p>
+          </div>
         </div>
 
         <div className="partyStarty work wow fadeIn" data-wow-duration="2s">
-          <div id="carouselExampleIndicators4" className="zoom carousel carousel-left slide workSS" data-ride="carousel">
+        <div className="description">
+            <h2 className="portHeader"> Party Starty </h2>
+            <p className="text-muted small">Event planning   application   for   gathering   general   consensus   of   interest   in   activities.</p>
+            <div className="line"></div>
+            <p className="mainDescription">Party Starty is the answer to the second most crippling obstacle affecting
+              hundreds of people a day. <em> What shoud we do? </em> Party Starty aims to organize the party planning process
+              by allowing guests to vote for preferred activities.
+              <br/>
+              <br/>
+              Event planners can create events, with location, time and descriptions. After an event is created, guests can
+              add a movie queue, retrieving titles from our movie database. Movies are then sorted accordingly based on the number of
+              votes the title has.  
+            </p>
+          </div>
+
+          <div id="carouselExampleIndicators4" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleIndicators4" data-slide-to="0" className="active"></li>
               <li data-target="#carouselExampleIndicators4" data-slide-to="1"></li>
@@ -320,20 +345,7 @@ class Portfolio extends React.Component {
               <span className="sr-only">Next</span>
             </a>
           </div>
-          <div className="description">
-            <h2 className="portHeader"> Party Starty </h2>
-            <p className="text-muted small">Event planning   application   for   gathering   general   consensus   of   interest   in   activities.</p>
-            <div className="line"></div>
-            <p className="mainDescription">Party Starty is the answer to the second most crippling obstacle affecting
-              hundreds of people a day. <em> What shoud we do? </em> Party Starty aims to organize the party planning process
-              by allowing guests to vote for preferred activities.
-              <br/>
-              <br/>
-              Event planners can create events, with location, time and descriptions. After an event is created, guests can
-              add a movie queue, retrieving titles from our movie database. Movies are then sorted accordingly based on the number of
-              votes the title has.  
-            </p>
-          </div>
+          
         </div>
 
       </div>

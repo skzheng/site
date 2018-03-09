@@ -21,7 +21,7 @@ class Projects extends React.Component {
                 A math game to practice your order of operations with the help of some well known musicians.
                 Written in vanilla JS as part of the JS30 series.
               </p>
-              <a className="hoverLink visitSite" href="https://rappersandpemdas.firebaseapp.com/">Visit site</a>
+              <a className="hoverLink visitSite" target="_blank" href="https://rappersandpemdas.firebaseapp.com/">Visit site</a>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ class Projects extends React.Component {
               Written in vanilla JS as part of the JS30 series.
               <br/>
             </p>
-            <a className="hoverLink visitSite" href="https://wordclock-826a3.firebaseapp.com/">Visit site</a>
+            <a className="hoverLink visitSite" target="_blank" href="https://wordclock-826a3.firebaseapp.com/">Visit site</a>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ class Projects extends React.Component {
               Used for content syndication for an event based site.
               <br />
             </p>
-            <a className="hoverLink visitSite" href="https://github.com/skzheng/pulsd">Visit Github</a>
+            <a className="hoverLink visitSite" target="_blank" href="https://github.com/skzheng/pulsd">Visit Github</a>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ class Projects extends React.Component {
               Constructed from a wire frame to specifications.
               <br />
             </p>
-            <a className="hoverLink visitSite" href="https://github.com/skzheng/reactor">Visit Github</a>
+            <a className="hoverLink visitSite" target="_blank" href="https://github.com/skzheng/reactor">Visit Github</a>
           </div>
         </div>
 

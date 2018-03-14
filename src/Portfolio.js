@@ -21,16 +21,19 @@ class Portfolio extends React.Component {
             <p className="text-muted small">An application built off of the Reddit API</p>
             <div className="line"></div>
             <p className="mainDescription">
-              PLACEHOLDER
+              Tidder is an application built off of the Reddit API. 
+              <br/>
+              <br/>
+              Users can navigate through the front page and preview content in a 
             </p>
             <a className="hoverLink visitSite" target="_blank" href="https://fptidder.firebaseapp.com/">Visit site</a>
           </div>
 
-        <div id="carouselExampleIndicators" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
+        <div id="carouselExampleIndicators5" className="zoom carousel carousel-right slide workSS" data-ride="carousel">
             <ol className="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators5" data-slide-to="0" className="active"></li>
+              <li data-target="#carouselExampleIndicators5" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators5" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -55,11 +58,11 @@ class Portfolio extends React.Component {
               </div>
               
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a className="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
               <span className="sr-only">Previous</span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a className="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="sr-only">Next</span>
             </a>

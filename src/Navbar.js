@@ -52,6 +52,9 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link" onClick={this.handleScroll} data-link="#contact">Contact</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://drive.google.com/file/d/1ppH1BqKYOb-mKLbIcU4y5JP8c2b8fZEn/view?usp=sharing" target="_blank">Resume</a>
+              </li>
             </ul>
           </div>
         </nav>

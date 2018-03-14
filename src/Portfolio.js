@@ -18,13 +18,15 @@ class Portfolio extends React.Component {
 
         <div className="description">
             <h2 className="portHeader"> Tidder </h2>
-            <p className="text-muted small">An application built off of the Reddit API</p>
+            <p className="text-muted small">A news and content aggregation site for discussion built off the Reddit API</p>
             <div className="line"></div>
             <p className="mainDescription">
-              Tidder is an application built off of the Reddit API. 
+              Tidder is work in progress application working off an API with a dense amount of information.
               <br/>
               <br/>
-              Users can navigate through the front page and preview content in a 
+              Users can navigate through the popular content on the front page and across different topics.
+              Within each topic, users can browse subreddits and their respective postings. 
+              Individual posts can be previewed on page with live media embedding.
             </p>
             <a className="hoverLink visitSite" target="_blank" href="https://fptidder.firebaseapp.com/">Visit site</a>
           </div>
